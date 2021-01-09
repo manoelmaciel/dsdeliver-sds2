@@ -1,0 +1,196 @@
+__________________
+09/01/2021 - 09:18 
+
+  Starting the development server...
+
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: ENOSPC: System limit for number of file watchers reached, watch '/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/public'
+    at FSWatcher.start (internal/fs/watchers.js:165:26)
+    at Object.watch (fs.js:1258:11)
+    at createFsWatchInstance (/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/node_modules/webpack-dev-server/node_modules/chokidar/lib/nodefs-handler.js:38:15)
+    at setFsWatchListener (/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/node_modules/webpack-dev-server/node_modules/chokidar/lib/nodefs-handler.js:81:15)
+    at FSWatcher.NodeFsHandler._watchWithNodeFs (/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/node_modules/webpack-dev-server/node_modules/chokidar/lib/nodefs-handler.js:233:14)
+    at FSWatcher.NodeFsHandler._handleDir (/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/node_modules/webpack-dev-server/node_modules/chokidar/lib/nodefs-handler.js:429:19)
+    at FSWatcher.<anonymous> (/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/node_modules/webpack-dev-server/node_modules/chokidar/lib/nodefs-handler.js:477:19)
+    at FSWatcher.<anonymous> (/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/node_modules/webpack-dev-server/node_modules/chokidar/lib/nodefs-handler.js:482:16)
+    at FSReqWrap.oncomplete (fs.js:154:5)
+Emitted 'error' event at:
+    at FSWatcher._handleError (/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/node_modules/webpack-dev-server/node_modules/chokidar/index.js:260:10)
+    at createFsWatchInstance (/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/node_modules/webpack-dev-server/node_modules/chokidar/lib/nodefs-handler.js:40:5)
+    at setFsWatchListener (/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/node_modules/webpack-dev-server/node_modules/chokidar/lib/nodefs-handler.js:81:15)
+    [... lines matching original stack trace ...]
+    at FSReqWrap.oncomplete (fs.js:154:5)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! front-web@0.1.0 start: `react-scripts start`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the front-web@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/manoel/.npm/_logs/2021-01-09T12_00_14_907Z-debug.log
+manoel@worknote:~/Workspaces/ws-sds2/dsdeliver/front-web$ 
+
+  ________
+  09:21:06
+
+    Compiled successfully!
+
+You can now view front-web in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://10.10.1.19:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+Error from chokidar (/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/node_modules/ansi-regex): Error: ENOSPC: System limit for number of file watchers reached, watch '/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/node_modules/ansi-regex'
+Error from chokidar (/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/node_modules/color-name): Error: ENOSPC: System limit for number of file watchers reached, watch '/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/node_modules/color-name'
+Error from chokidar (/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/node_modules/node-libs-browser/node_modules/punycode): Error: ENOSPC: System limit for number of file watchers reached, watch '/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/node_modules/node-libs-browser/node_modules/punycode'
+Error from chokidar (/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/node_modules/react-dev-utils): Error: ENOSPC: System limit for number of file watchers reached, watch '/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/node_modules/react-dev-utils'
+Error from chokidar (/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/node_modules/react-refresh/cjs): Error: ENOSPC: System limit for number of file watchers reached, watch '/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/node_modules/react-refresh/cjs'
+Error from chokidar (/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/node_modules/scheduler/cjs): Error: ENOSPC: System limit for number of file watchers reached, watch '/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/node_modules/scheduler/cjs'
+Error from chokidar (/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/node_modules/supports-color): Error: ENOSPC: System limit for number of file watchers reached, watch '/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/node_modules/supports-color'
+Error from chokidar (/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/src): Error: ENOSPC: System limit for number of file watchers reached, watch '/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/src'
+Error from chokidar (/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/src): Error: ENOSPC: System limit for number of file watchers reached, watch '/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/src/App.css'
+Error from chokidar (/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/src): Error: ENOSPC: System limit for number of file watchers reached, watch '/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/src/App.tsx'
+Error from chokidar (/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/src): Error: ENOSPC: System limit for number of file watchers reached, watch '/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/src/Hello.tsx'
+Error from chokidar (/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/src): Error: ENOSPC: System limit for number of file watchers reached, watch '/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/src/index.tsx'
+Error from chokidar (/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/src): Error: ENOSPC: System limit for number of file watchers reached, watch '/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/src/logo.svg'
+Error from chokidar (/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/src): Error: ENOSPC: System limit for number of file watchers reached, watch '/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/src/react-app-env.d.ts'
+Error from chokidar (/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/src): Error: ENOSPC: System limit for number of file watchers reached, watch '/home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/src/setupTests.ts'
+
+  ________
+  09:27:17 
+
+  Problema ...
+
+    Error: ENOSPC: System limit for number of file watchers reached [Resolvido]
+
+    https://www.vivaolinux.com.br/dica/Error-ENOSPC-System-limit-for-number-of-file-watchers-reached-Resolvido
+
+      Verifica o valor:
+
+        cat /proc/sys/fs/inotify/max_user_watches
+
+     Muda o valor:
+
+      echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p 
+
+  Problema resolvido!
+
+__________________
+08/01/2021 - 23:39 
+
+  manoel@worknote:~/Workspaces/ws-sds2/dsdeliver$ ls
+backend  NOTES
+manoel@worknote:~/Workspaces/ws-sds2/dsdeliver$ npx create-react-app front-web --template typescript --use-npm
+npx: instalou 67 em 12.391s
+
+Creating a new React app in /home/manoel/Workspaces/ws-sds2/dsdeliver/front-web.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template-typescript...
+
+
+> core-js@2.6.12 postinstall /home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/node_modules/babel-runtime/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.8.2 postinstall /home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js-pure@3.8.2 postinstall /home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/node_modules/core-js-pure
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> ejs@2.7.4 postinstall /home/manoel/Workspaces/ws-sds2/dsdeliver/front-web/node_modules/ejs
+> node ./postinstall.js
+
++ cra-template-typescript@1.1.1
++ react-scripts@4.0.1
++ react-dom@17.0.1
++ react@17.0.1
+added 1904 packages from 722 contributors and audited 1907 packages in 107.528s
+
+126 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+Installing template dependencies using npm...
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.1 (node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.1: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules/watchpack-chokidar2/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules/webpack-dev-server/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+
++ @types/react-dom@16.9.10
++ web-vitals@0.2.4
++ @testing-library/jest-dom@5.11.8
++ @types/node@12.19.12
++ @types/react@16.14.2
++ @types/jest@26.0.20
++ @testing-library/user-event@12.6.0
++ @testing-library/react@11.2.3
++ typescript@4.1.3
+added 34 packages from 105 contributors, updated 1 package and audited 1944 packages in 19.732s
+
+126 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+We detected TypeScript in your project (src/App.test.tsx) and created a tsconfig.json file for you.
+
+Your tsconfig.json has been populated with default values.
+
+Removing template package using npm...
+
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.1 (node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.1: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules/watchpack-chokidar2/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules/webpack-dev-server/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+
+removed 1 package and audited 1942 packages in 10.792s
+
+126 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+Success! Created front-web at /home/manoel/Workspaces/ws-sds2/dsdeliver/front-web
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd front-web
+  npm start
+
+Happy hacking!
+manoel@worknote:~/Workspaces/ws-sds2/dsdeliver$ 
+
