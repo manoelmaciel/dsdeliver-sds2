@@ -17,6 +17,36 @@ __________________
   Por aqui!
   ------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ________
+  20:49:38
+
+    Deploy
+
+    8:47:43 PM: Build ready to start
+8:47:45 PM: build-image version: 53b83b6bede2920f236b25b6f5a95334320dc849
+8:47:45 PM: build-image tag: v3.6.0
+8:47:45 PM: buildbot version: 7d7f8cd4cc19a5205bae0ea8df58feec103fed05
+8:47:45 PM: Fetching cached dependencies
+8:47:45 PM: Failed to fetch cache, continuing with build
+8:47:45 PM: Starting to prepare the repo for build
+8:47:45 PM: No cached dependencies found. Cloning fresh repo
+8:47:45 PM: git clone https://github.com/manoelmaciel/dsdeliver-sds2
+8:47:46 PM: Preparing Git Reference refs/heads/main
+8:47:47 PM: Different publish path detected, going to use the one specified in the Netlify configuration file: 'front-web/build' versus 'build' in the Netlify UI
+8:47:47 PM: Starting build script
+8:47:47 PM: Installing dependencies
+8:47:47 PM: Python version set to 2.7
+8:47:49 PM: v12.18.0 is already installed.
+8:47:49 PM: Now using node v12.18.0 (npm v6.14.4)
+8:47:49 PM: Started restoring cached build plugins
+8:47:49 PM: Finished restoring cached build plugins
+8:47:49 PM: Attempting ruby version 2.7.1, read from environment
+8:47:51 PM: Using ruby version 2.7.1
+8:47:51 PM: Using PHP version 5.6
+8:47:51 PM: Started restoring cached node modules
+8:47:51 PM: Finished restoring cached node modules
+8:47:51 PM: Installing NPM modules using NPM version 6.14.4 
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 __________________
 07/01/2021 - 14:31   
